@@ -1,4 +1,4 @@
-# 🌳 Análisis de Abandono de Clientes - Árboles de Decisión y Bosque Aleatorio
+# Análisis de Abandono de Clientes - Árboles de Decisión y Bosque Aleatorio
 
 ## Descripción del proyecto
 
@@ -40,12 +40,12 @@ Este proyecto analiza los factores que influyen en el abandono de clientes en un
 
 ### 5. Entrenamiento de modelos
 
-#### 🌳 Árbol de decisión
+#### Árbol de decisión
 - Parámetros: `max_depth=3`, `class_weight='balanced'`
 - Accuracy Train: Variable según datos
 - Accuracy Test: Variable según datos
 
-#### 🌳🌳🌳 Bosque aleatorio
+#### Bosque aleatorio
 - Parámetros: `n_estimators=40`, `max_depth=5`, `class_weight='balanced'`
 
 ### 6. Evaluación y validación
@@ -70,28 +70,6 @@ Este proyecto analiza los factores que influyen en el abandono de clientes en un
 
 4. **Dependientes**
    - Clientes sin dependientes abandonan más frecuentemente
-
-### Comparación de modelos
-
-| Métrica | Árbol de decisión | Bosque aleatorio |
-|---------|-------------------|------------------|
-| Simplicidad | ✅ Más interpretable | ❌ Menos interpretable |
-| Detección de Abandono | ❌ 131 falsos negativos | ✅ 85 falsos negativos |
-| Precisión General | Buena | Mejor |
-| Recomendación | Análisis exploratorio | Predicción en producción |
-
-## Resultados y recomendaciones
-
-### Para el negocio
-- **Priorizar retención** de clientes con contratos mensuales
-- **Investigar problemas** con el servicio de fibra óptica
-- **Programa de bienvenida** para clientes nuevos
-- **Ofertas especiales** para clientes sin dependientes
-
-### Para el modelo
-- **Random Forest** es más efectivo para detectar clientes en riesgo
-- La variable "Contrato" es el predictor más importante
-- El modelo puede identificar patrones de abandono con buena precisión
 
 ## Contribuciones
 Cindy Sanchez,
